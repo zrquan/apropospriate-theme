@@ -47,7 +47,7 @@ Set to `1.0' or nil to prevent font size manipulation."
   (declare (indent 0))
   `(let* ((class '((class color) (min-colors 89)))
           (variant ,variant)
-          (base00   (if (eq variant 'light) "#FAFAFA" "#424242"))
+          (base00   (if (eq variant 'light) "#E9E9E9" "#202020"))
           (base01   (if (eq variant 'light) "#90A4AE" "#757575"))
           (base02   (if (eq variant 'light) "#78909C" "#9E9E9E"))
           (base03   (if (eq variant 'light) "#546E7A" "#E0E0E0"))

@@ -31,7 +31,7 @@
   "Apropospriate theme options."
   :group 'faces)
 
-(defcustom apropospriate-mode-line-height 0.95
+(defcustom apropospriate-mode-line-height 0.90
   "The proportional font size of the mode-line in the apropospriate theme.
 Set to `1.0' or nil to prevent font size manipulation."
   :type 'number
